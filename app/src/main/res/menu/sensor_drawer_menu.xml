@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_all_sensors"
+        android:title="Sensors List" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_temp"
+            android:title="Temperature" />
+        <item
+            android:id="@+id/nav_humid"
+            android:title="Humidity" />
+        <item
+            android:id="@+id/nav_prox"
+            android:title="Proximity" />
+        <item
+            android:id="@+id/nav_mag"
+            android:title="Magnetic Field" />
+        <item
+            android:id="@+id/nav_accel"
+            android:title="Accelerometer" />
+        <item
+            android:id="@+id/nav_grav"
+            android:title="Gravity" />
+        <item
+            android:id="@+id/nav_gyro"
+            android:title="Gyroscope" />
+        <item
+            android:id="@+id/nav_steps"
+            android:title="Step Counter" />
+        <item
+            android:id="@+id/nav_comp"
+            android:title="Compass" />
+        <item
+            android:id="@+id/nav_act_rec"
+            android:title="Activity Inference" />
+    </group>
+</menu>
